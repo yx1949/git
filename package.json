@@ -1,0 +1,15 @@
+{
+  "name": "mark-notes",
+  "version": "1.0.0",
+  "private": true,
+  "description": "马克笔记 —— 一个双栏布局、自动保存的本地笔记应用",
+  "scripts": {
+    "start": "node server.cjs",
+    "test": "node tests/store.test.cjs && node tests/e2e.test.cjs",
+    "test:unit": "node tests/store.test.cjs",
+    "test:e2e": "node tests/e2e.test.cjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
